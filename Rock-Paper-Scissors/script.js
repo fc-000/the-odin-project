@@ -59,7 +59,8 @@ function playGame() {
     let humanSelection = getHumanChoice();
     let computerSelection = getComputerChoice();
 
-    
+    console.log("Human chose: " + humanSelection);
+    console.log("Computer chose: " + computerSelection);
     playRound(humanSelection, computerSelection);
 
     console.log("Human: ", humanScore, "Computer: ", computerScore);
